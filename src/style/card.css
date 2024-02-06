@@ -1,0 +1,161 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100vh;
+	width: 100vw;
+}
+
+.card {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.card-container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 780px;
+	width: 370px;
+}
+
+.card-img img {
+	width: 370px;
+	height: 317px;
+	margin-bottom: -5px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+.card-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #1a1b21;
+	width: 100%;
+	height: 100%;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.card-main-titles {
+	text-align: center;
+	margin-bottom: 20px;
+	background-color: #1a1b21;
+}
+
+.card-main-titles h1 {
+	color: #fff;
+	margin-top: 21px;
+	background-color: #1a1b21;
+}
+
+.card-main-titles h3 {
+	color: #f3bf99;
+	font-weight: 300;
+	margin-bottom: 13px;
+	background-color: #1a1b21;
+}
+
+.card-main-titles p {
+	color: #fff;
+	background-color: #1a1b21;
+}
+
+.card-main-btns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	gap: 25px;
+	background-color: #1a1b21;
+	margin-bottom: 33px;
+}
+
+.card-main-btns button {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 125px;
+	height: 34px;
+	gap: 8px;
+	border-radius: 6px;
+	border: none;
+}
+
+#btn-email,
+#btn-email iconify-icon {
+	background-color: #fff;
+	color: #374151;
+	font-size: 14px;
+}
+
+#btn-linkedin,
+#btn-linkedin iconify-icon {
+	background-color: #5093e2;
+	color: #fff;
+	font-size: 14px;
+}
+
+.card-main-text {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 300px;
+	gap: 30px;
+	background-color: #1a1b21;
+	margin-bottom: 30px;
+}
+
+.card-main-about,
+.card-main-interests {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	background-color: #1a1b21;
+}
+
+.card-main-about h1,
+.card-main-interests h1 {
+	color: #fff;
+	background-color: #1a1b21;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.card-main-about p,
+.card-main-interests p {
+	color: #fff;
+	font-size: 12px;
+	letter-spacing: 0.5px;
+	font-weight: 100;
+	line-height: 150%;
+	background-color: #1a1b21;
+}
+
+.card-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+	width: 100%;
+	height: 64px;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+	background-color: #161619;
+}
+
+.card-footer iconify-icon {
+	font-size: 35px;
+	color: #fff;
+	background-color: #161619;
+}

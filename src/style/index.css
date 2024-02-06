@@ -1,0 +1,11 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: #23252c;
+	font-family: 'system-ui';
+}
+
+#root {
+	height: 100vh;
+}
